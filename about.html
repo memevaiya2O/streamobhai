@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STREAMO BHAI - About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body {
+            background: linear-gradient(135deg, #0b0b1a 0%, #0a0a1a 100%);
+            font-family: 'Inter', sans-serif;
+            color: #f0f0ff;
+            padding: 2rem;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: rgba(12,12,28,0.6);
+            backdrop-filter: blur(12px);
+            border-radius: 2rem;
+            padding: 2rem;
+            border: 1px solid rgba(0,224,255,0.2);
+        }
+        h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(135deg, #fff, #00e0ff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin-bottom: 1rem;
+        }
+        h2 {
+            color: #00e0ff;
+            margin: 1.5rem 0 0.8rem;
+            font-size: 1.4rem;
+        }
+        p, li {
+            line-height: 1.6;
+            color: #d0d0f0;
+        }
+        .feature-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px,1fr));
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+        .feature-item {
+            background: rgba(0,224,255,0.05);
+            padding: 1rem;
+            border-radius: 1rem;
+            border-left: 3px solid #00e0ff;
+        }
+        .install-steps {
+            background: rgba(0,0,0,0.3);
+            padding: 1rem 1.5rem;
+            border-radius: 1rem;
+            margin: 1rem 0;
+        }
+        .btn {
+            display: inline-block;
+            background: #00e0ff;
+            color: #000;
+            padding: 0.7rem 1.5rem;
+            border-radius: 40px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 1rem;
+            transition: 0.2s;
+        }
+        .btn:hover {
+            transform: scale(1.02);
+            box-shadow: 0 0 15px #00e0ff;
+        }
+        footer {
+            margin-top: 2rem;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #8080a0;
+        }
+        a { color: #00e0ff; text-decoration: none; }
+        @media (max-width: 640px) {
+            body { padding: 1rem; }
+            .container { padding: 1.5rem; }
+            h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1><i class="fas fa-play-circle"></i> STREAMO BHAI</h1>
+    <p>Your premium, free OTT platform with 120+ live channels, zero cost, and a high‑end streaming experience.</p>
+
+    <h2>✨ Key Features</h2>
+    <div class="feature-list">
+        <div class="feature-item"><i class="fas fa-tv"></i> 120+ live channels in 8 categories</div>
+        <div class="feature-item"><i class="fas fa-search"></i> Instant search & category filter</div>
+        <div class="feature-item"><i class="fas fa-heart"></i> Favorites & recently watched (localStorage)</div>
+        <div class="feature-item"><i class="fas fa-wifi"></i> Real‑time network speed meter</div>
+        <div class="feature-item"><i class="fas fa-video"></i> Smooth HLS player with buffering overlay</div>
+        <div class="feature-item"><i class="fas fa-mobile-alt"></i> Fully responsive & mobile friendly</div>
+        <div class="feature-item"><i class="fas fa-download"></i> PWA ready – installable as an app</div>
+        <div class="feature-item"><i class="fas fa-globe"></i> Free forever, no registration</div>
+    </div>
+
+    <h2>📱 Install as App (PWA)</h2>
+    <div class="install-steps">
+        <p><strong>On Android (Chrome / Edge):</strong><br>
+        1. Open <a href="index.html">STREAMVAULT</a> in your browser.<br>
+        2. Tap the menu (three dots) → <strong>"Install app"</strong> or <strong>"Add to Home screen"</strong>.<br>
+        3. Confirm and launch from your home screen.</p>
+        <p><strong>On iOS (Safari):</strong><br>
+        1. Open the site in Safari.<br>
+        2. Tap the Share button → <strong>"Add to Home Screen"</strong>.<br>
+        3. Name it and tap "Add".</p>
+        <p><i class="fas fa-check-circle" style="color:#00e0ff;"></i> After installation, you'll enjoy a full‑screen app experience with offline fallback.</p>
+    </div>
+
+    <h2>🔧 How to Use</h2>
+    <ul>
+        <li>Click any channel card to start streaming.</li>
+        <li>Use the search bar to find a channel instantly.</li>
+        <li>Filter by category (Entertainment, News, Sports, etc.) using the buttons above the grid.</li>
+        <li>Click the heart icon on any channel to add to favorites – your list is saved automatically.</li>
+        <li>Recently watched channels appear at the top for quick access.</li>
+        <li>If a stream stalls, use the <strong>Retry</strong> button to reload.</li>
+        <li>Network speed is shown in real time; a green dot indicates good connection, yellow/orange means moderate, red indicates slow.</li>
+    </ul>
+
+    <h2>⚠️ Disclaimer</h2>
+    <p>All channel links are sourced from 「 Prime Xyron 」</p>
+
+    <div style="text-align: center; margin-top: 2rem;">
+        <a href="index.html" class="btn"><i class="fas fa-play"></i> Launch STREAMO BHAI</a>
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <a href="https://t.me/prime_xyron" target="_blank"><i class="fab fa-telegram"></i> Telegram</a> &nbsp;|&nbsp;
+            <a href="https://www.facebook.com/share/1CdqCR8gYX/" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+        </div>
+        <div>© 2026 STREAMO BHAI · All rights reserved</div>
+        <div style="opacity:.6;">Developed with ❤️ by RIYAD </div>
+    </footer>
+</div>
+</body>
+</html>
